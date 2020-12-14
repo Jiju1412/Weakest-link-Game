@@ -1,0 +1,247 @@
+/**********************************************
+*** GENERAL
+**********************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4));
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+}
+
+.wrapper {
+    width: 1000px;
+    
+	padding: 10px;
+    margin: 10px auto;
+    min-height: 500px;
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+p{
+	margin: 10px 0;
+	line-height: auto;
+}
+
+label {
+	width: 100px;
+	display:inline-block;
+	font-size: 16px;
+}
+
+input {
+	font-size: 16px;
+	padding: 5px 10px;
+	border: solid 2px #008aff;
+}
+
+.btn {
+	color: #ffffff;
+    background: #ff2300;
+    padding: 10px 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+	background: #055598;
+}
+
+
+
+
+
+.question{
+	
+	float: left;
+	padding: 10px;
+	width: 800px;
+}
+
+.question .question-text{
+	
+	min-height: 200px;
+	padding: 10px;
+}
+
+.question .answers{
+	background: #fff;
+	margin-top: 10px;
+	
+}
+
+.question .answers .answer{
+	background: #f0f0f0;
+	padding: 5px;
+	text-align: center;
+	display:block;
+	float:left;
+	width: 360px;
+	margin: 10px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+
+.amount-levels{
+	background: #fff;
+	float: left;
+	width: 100px;
+}
+
+.amount-levels div{
+	background: #11c8ff;
+	border: solid 1px #c3c3c3;
+	margin: 2px;
+	padding: 5px 10px;
+	text-align: center;
+	color: #fff;
+	border-radius: 60%;
+}
+
+.amount-levels div.current-amount-level{
+	background: #ff0505;
+	color: #fff;
+}
+
+#timer {
+	
+}
+#bank {
+}
+
+.clear {
+	float:none;
+	clear:both;
+	
+	
+}
+
+#timer {
+	display:inline-block;
+	float: right;
+	padding: 10px;
+	border: solid 1px;
+	border-radius: 50%;
+	font-size: 24px;
+	background: #ff0505;
+	color: #fff;
+}
+
+#bank {
+	float: left;
+	display:inline-block;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-left: 40px;
+	font-weight: bold;
+}
+
+.bottom{
+	margin-top: 10px;
+	
+	padding: 5px;
+	min-height: 50px;
+	
+	
+}
+
+.user-info{
+	min-height: 50px;
+	text-align:center;
+	font-size: 20px;
+	background: #fff700;
+	padding: 10px;
+}
+
+
+#amountWon {
+	background: #fff;
+    color: #007e02;
+}
+
+#winningamount {
+	font-size; 24px;
+}
+
+#btnBankIt {
+	margin: 20px 0;
+}
+
+
+.loser {
+	text-align: center;
+	color: #ff0000;
+}
+
+
+#round-2 {
+	float:left;
+	    background: #fff;
+    text-align: center;
+    color: #ff0000;
+    font-size: 24px;
+}
+
+
+h3.amountWon, .winner{
+	text-align: center;
+	color: #00ff00;
+	font-size: 48px;
+}
+
+.startpage {
+	    background: url(../images/bg_index.png) no-repeat center;
+    background-size: cover;
+}
+
+.btnStartPage {
+	    
+    margin-top: 450px;
+    text-align: center;
+    display: block;
+    width: 1000px;
+}
+
+.playerdetail{
+	   background: url(../images/bg_blue.png) no-repeat center;
+    background-size: cover;
+}
+
+.rounds{
+	   background: url(../images/bg_light.png) no-repeat center;
+    background-size: cover;
+}
+
+.playerdetail form{
+	margin-top: 200px;
+	margin-left: 200px;
+}
+
+
+.retry {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#pendingQuestions {
+	display:block;
+	text-align:center;
+	    margin-top: 20px;
+}
